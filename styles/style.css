@@ -181,6 +181,23 @@ header {
   background-color: #B9DDE7;
 }
 
+.gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10% 0;
+}
+
+.gallery-container .three-pic {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(33% - 40px);
+          flex: 1 0 calc(33% - 40px);
+}
+
+.gallery-container .three-pic:nth-of-type(2) {
+  margin: 0 20px;
+}
+
 nav {
   background-color: #B9DDE7;
   display: -webkit-box;
@@ -208,6 +225,23 @@ nav li a:hover {
 
 header {
   background-color: #B9DDE7;
+}
+
+.gallery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10% 0;
+}
+
+.gallery-container .three-pic {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 calc(33% - 40px);
+          flex: 1 0 calc(33% - 40px);
+}
+
+.gallery-container .three-pic:nth-of-type(2) {
+  margin: 0 20px;
 }
 
 html {
@@ -283,15 +317,15 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
+h3,
+nav p {
   font-size: 3.2rem;
   font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-h4,
-nav p {
+h4 {
   font-size: 2.4rem;
   font-weight: bold;
   letter-spacing: 1px;
@@ -320,4 +354,11 @@ button:hover {
 
 button a {
   line-height: 32px;
+}
+
+footer {
+  background-color: #171717;
+  color: #F6F6F6;
+  text-align: center;
+  height: 5vh;
 }

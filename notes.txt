@@ -1,0 +1,8 @@
+
+- Social links do not go anywhere, could have them go to the associated homepages 
+
+- Missing alt text in index.html at line 38 
+
+- On the homepage, the image associated with the h1 breaks 800-1500px, also at ~320px there is some horizontal scroll because of the image in "her-journey" 
+
+- In mobile, the hamburger nav has too much margin on the right, also it could be a bit bigger - for your drop-down question, this article from css-tricks is a good resource: https://css-tricks.com/solved-with-css-dropdown-menus/ 

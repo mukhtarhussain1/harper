@@ -1,4 +1,20 @@
+// Harper Main Page
+
 header {
     background-color: $light-blue;
 
+}
+
+// 3 Pic Gallery
+.gallery-container {
+    display: flex;
+    padding: 10% 0;
+    
+    .three-pic {
+        flex: 1 0 calc(33% - 40px);
+        
+        &:nth-of-type(2) {
+            margin: 0 20px;
+        }
+    }
 }

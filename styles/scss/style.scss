@@ -77,12 +77,12 @@ h2 {
     @include font-settings(42);
 }
 
-h3 {
+h3,
+nav p {
     @include font-settings(32);
 }
 
-h4,
-nav p {
+h4 {
     @include font-settings(24);
 }
 
@@ -107,4 +107,15 @@ button {
     a {
         line-height: 32px;
     } 
+}
+
+
+
+// Footer Styling
+footer {
+    background-color: $text-color;
+    color: $white;
+    text-align: center;
+    height: 5vh;
+
 }
