@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harper | Home</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./harper-assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./harper-assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./harper-assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./harper-assets/favicon_io/site.webmanifest">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/813177f008.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Oswald:400,700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <p>Harper</p>
+                </li>
+                <li>
+                    <a href="./blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+                <div tabindex="0" class="hamburger">
+                    <label class="visually-hidden" for="ham-check">Open menu</label>
+                    
+                    <input type="checkbox" name="hamburger" id="ham-check" class="ham-input">
+    
+                    <span></span>
+                    <span></span>
+                    <span></span>
+    
+                    <ul class="hamburger-menu" id="ham">
+                        <li tabindex="0" class="ham-link">
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li tabindex="0" class="ham-link">
+                            <a href="#about">About</a>
+                        </li>
+                        <li tabindex="0" class="ham-link">
+                            <a href="./blog.html">Blog</a>
+                        </li>
+                        <li tabindex="0" class="ham-link">
+                            <a href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+            <!-- Hero -->
+            <section class="hero">
+                <div class="wrapper">
+
+                    <div class="header-text-container">
+                        <div class="header-pic">
+                            <img src="./harper-assets/home-image-1.jpg" alt="young girl lying among blue and pink ballons">
+                        </div>
+
+                        <h1>Harper</h1>
+                        <div class="header-circle">
+                            <img src="./harper-assets/circle-text.png" alt="white text in a circular shape saying Everyday Life With">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <main>
+        <!-- Who's Harper -->
+        <section class="whos-harper">
+            <div class="wrapper">
+                <div class="harper-container">
+                    <h2>Who's Harper?</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem iusto id dolore consectetur pariatur cupiditate ratione impedit! Harum, ab error.</p>
+                    <button>
+                        <a href="#about">Find Out More</a>
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Building Picture -->
+        <section class="building">
+            <img src="./harper-assets/home-image-2.jpg" alt="exterior view of pink building with blue windows">
+        </section>
+        <!-- All credit to @iandonahue on jsfiddle.net for the code in order to center font-awesome icons inside circle: http://jsfiddle.net/iandonahue/M3jxT/1409 -->
+
+        <!-- 4 Text Section -->
+        <section class="four-text">
+            <div class="wrapper">
+
+                <ul class="mid-list">
+                    <li>
+                        <div class="icon-circle-container">
+                            <div class="icon-circle">
+                                <i class="fas fa-image" aria-hidden="true"></i>
+                                <span class="sr-only">Harper Photos</span>
+                            </div>
+                            <h3>Photos</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quidem quis porro, harum voluptatum unde sapiente officia minima expedita praesentium.</p>
+                    </li>
+
+                    <li>
+                        <div class="icon-circle-container">
+                            <div class="icon-circle">
+                                <i class="fas fa-user" aria-hidden="true"></i>
+                                <span class="sr-only">About Harper</span>
+                            </div>
+                            <h3>About</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, ad molestiae sint illo dolores error dicta corrupti repellendus id quas.</p>
+                    </li>
+
+                    <li class="four-square">
+                        <div class="icon-circle-container">
+                            <div class="icon-circle">
+                                <i class="fas fa-desktop" aria-hidden="true"></i>
+                                <span class="sr-only">Harper Blog</span>
+                            </div>
+                            <h3>Blog</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi praesentium in quod earum illo accusantium aliquam accusamus expedita nam laboriosam.</p>
+                    </li>
+
+                    <li class="four-square">
+                        <div class="icon-circle-container">
+                            <div class="icon-circle">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                <span class="sr-only">Harper Contact</span>
+                            </div>
+                            <h3>Contact Me</h3>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error at quidem minus reiciendis maiores consequuntur sint quas beatae commodi dignissimos.</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- Pics & Images -->
+        <section class="pic-text" id="about">
+            <div class="wrapper">
+
+                <div class="image-container">
+                    <img src="./harper-assets/home-image-3.jpg" alt="silhouettes of 2 guys surfing some gnarly waves at sunset against a pink sky">
+                </div>
+
+                <div class="text-container">
+                    <h3>Harper's Travels</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum expedita excepturi autem consequuntur. Doloremque asperiores distinctio facilis aperiam animi! Qui temporibus ipsa omnis totam iure?</p>
+                    <button>
+                        <a href="#blog">Read More</a>
+                    </button>
+                </div>
+            
+                <div class="text-container">
+                    <h3>Favourite Things</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil perferendis maiores nisi est corrupti hic deleniti possimus natus sunt suscipit nulla officia, non qui vero.</p>
+                    <button>
+                        <a href="#blog">Read More</a>
+                    </button>
+                </div>
+            
+                <div class="image-container">
+                    <img src="./harper-assets/home-image-4.jpg" alt="side view of a red brick building at sunset">
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- Harpers Journey -->
+        <section class="journey">
+            <div class="wrapper">
+
+                <div class="journey-text-container">
+
+                    <div class="journey-pic">
+                        <img src="./harper-assets/home-image-5.jpg" alt="girl smiling and looking left on pink and white blurred background">
+                    </div>
+                    
+                    <div class="journey-text">
+                        <h2>Harper's Journey</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste similique dolorum nulla, blanditiis cupiditate. Odit quaerat architecto voluptatibus quo itaque ab ipsum dicta fugit possimus asperiores temporibus laborum alias, enim numquam reiciendis consequatur ut ratione tempore tempora eum sed corrupti iusto!</p>
+                        <button>
+                            <a href="#">Find Out More</a>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        
+
+        <!-- Gallery -->
+        <section class="gallery">
+            <div class="wrapper">
+
+                <div class="gallery-container">
+                    <div class="three-pic">
+                        <img src="./harper-assets/home-image-6.jpg" alt="pink building on a sunny day with a clear blue sky in the background">
+                    </div>
+
+                    <div class="three-pic">
+                        <img src="./harper-assets/home-image-7.jpg" alt="airplane flying among pink and blue clouds">
+                    </div>
+
+                    <div class="three-pic">
+                        <img src="./harper-assets/home-image-8.jpg" alt="dark pink clouds">
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright© Afua Deborah 2020 Juno College</p>
+    </footer>
+      
+</body>
+</html>

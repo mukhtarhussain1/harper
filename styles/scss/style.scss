@@ -1,0 +1,110 @@
+@import 'setup';
+@import 'variables';
+
+@import 'index';
+@import 'navigation';
+@import 'index';
+@import 'form';
+@import 'blog';
+@import 'contact';
+
+// Default Styling
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+h1,
+h2,
+h3,
+p,
+button,
+form,
+a,
+input,
+textarea,
+label,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: $text-color;
+}
+
+body {
+    @include font-size(20);
+    color: $text-color;
+    font-family: $body-font;
+    line-height: 32px;
+}
+
+// Fonts 
+h1,
+h2,
+h3,
+h4,
+nav p,
+a {
+    font-family: $header-font;
+    letter-spacing: 1px;
+}
+
+h1 {
+    @include font-settings(100);
+    line-height: 92px;
+}
+
+h2 {
+    @include font-settings(42);
+}
+
+h3 {
+    @include font-settings(32);
+}
+
+h4,
+nav p {
+    @include font-settings(24);
+}
+
+nav a,
+button a {
+    @include font-settings(20);
+}
+
+
+
+// Button Styling
+button {
+    background-color: $accent-color;
+    border-radius: 1px;
+    padding: 10px 30px;
+    max-width: 300px;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    a {
+        line-height: 32px;
+    } 
+}

@@ -1,0 +1,24 @@
+// Navigation
+nav {
+    background-color: $light-blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+        margin: 20px;
+
+       a {
+           &:hover {
+               color: $white;
+           }
+       }
+    }
+}
+
+
+// Hamburger Menu
+.hamburger {
+    display: none;
+}

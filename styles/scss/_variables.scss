@@ -1,0 +1,53 @@
+// Font
+$body-font: 'Cabin';
+$header-font: 'Oswald';
+
+@mixin font-settings ($size-value){
+    font-size: ($size-value / 10) * 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+// Colours
+$text-color: #171717;
+$accent-color: #F38D8D;
+$mid-blue: #68B0C1;
+$light-blue: #B9DDE7;
+$dark-blue: #227284;
+$white: #F6F6F6;
+
+
+// Mixins
+@mixin background-image ($image){
+    background-image: $image;
+    height: 40vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+@mixin font-size ($size){
+    font-size: ($size / 10) * 1rem;
+}
+
+
+// Media Queries
+@mixin desktop {
+    @media (max-width: 1050px){
+        @content;
+    }
+}
+
+@mixin mobile-tablet {
+    @media (max-width: 780px){
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 500px){
+        @content;
+    }
+}
