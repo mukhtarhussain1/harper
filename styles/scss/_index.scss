@@ -1,11 +1,43 @@
 // Harper Main Page
 
+// Header
 header {
     background-color: $light-blue;
 }
 
+.header-text-container {
+    display: flex;
+    justify-content: space-between;
+
+    .header-pic {
+        width: calc(45% - 50px);
+        margin-right: 50px;
+
+        img {
+            box-shadow: 15px 15px 0px 0px white;
+            position: relative;
+            top: 70px;
+        }
+    }
+
+    .logo {
+        align-items: center;
+        display: flex;
+
+        .header-circle {
+            width: calc(15vw + 1px);
+            min-width: 80px;
+            position: relative;
+            right: calc(10vw + 1px);
+            bottom: calc(5vh + 1px);
+        }
+    }
+}
+
+
 // Who Is She
 .whos-harper {
+    background-color: $white;
     padding: 10% 0;
 
     .harper-container {
