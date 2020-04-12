@@ -181,6 +181,35 @@ header {
   background-color: #B9DDE7;
 }
 
+.journey {
+  background-color: #F6F6F6;
+  padding: 10% 0;
+}
+
+.journey .journey-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.journey .journey-container .journey-pic {
+  width: 35%;
+  margin-right: 70px;
+}
+
+.journey .journey-container .journey-pic img {
+  -webkit-box-shadow: 15px 15px 0px 0px #227284;
+          box-shadow: 15px 15px 0px 0px #227284;
+}
+
+.journey .journey-container .journey-text {
+  width: 65%;
+}
+
+.journey .journey-container .journey-text p {
+  margin: 6% 0;
+}
+
 .gallery-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -225,6 +254,35 @@ nav li a:hover {
 
 header {
   background-color: #B9DDE7;
+}
+
+.journey {
+  background-color: #F6F6F6;
+  padding: 10% 0;
+}
+
+.journey .journey-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.journey .journey-container .journey-pic {
+  width: 35%;
+  margin-right: 70px;
+}
+
+.journey .journey-container .journey-pic img {
+  -webkit-box-shadow: 15px 15px 0px 0px #227284;
+          box-shadow: 15px 15px 0px 0px #227284;
+}
+
+.journey .journey-container .journey-text {
+  width: 65%;
+}
+
+.journey .journey-container .journey-text p {
+  margin: 6% 0;
 }
 
 .gallery-container {

@@ -5,6 +5,35 @@ header {
 
 }
 
+// 
+.journey {
+    background-color: $white;
+    padding: 10% 0;
+
+    .journey-container {
+        display: flex;
+
+        .journey-pic {
+            width: 35%;
+            margin-right: 70px;
+
+            img {
+                box-shadow: 15px 15px 0px 0px $dark-blue;
+            }
+        }
+
+        .journey-text {
+            width: 65%;
+
+            p {
+                margin: 6% 0;
+            }
+        }
+    }
+
+}
+
+
 // 3 Pic Gallery
 .gallery-container {
     display: flex;
