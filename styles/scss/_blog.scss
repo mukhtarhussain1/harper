@@ -10,6 +10,33 @@
     .flex-blog {
         display: flex;
         justify-content: space-between;
+
+        .blog-sidebar {
+            display: flex;
+            flex-direction: column;
+            background-color: $white;
+            padding: 0;
+            
+        }
+    }
+
+    .about-harper,
+    .recent-posts {
+        background-color: white;
+        padding: 30px;
+    }
+
+    .about-harper {
+        margin-bottom: 20px;
+
+        a {
+            font-family: $body-font;
+            color: $dark-blue;
+        }
+    }
+
+    span {
+        margin-right: 10px;
     }
 
     .blog-container {
@@ -31,4 +58,3 @@
 
 }
 
-// Flex sidebar divs and stack

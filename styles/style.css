@@ -712,6 +712,37 @@ form button:hover {
           justify-content: space-between;
 }
 
+.blog .flex-blog .blog-sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F6F6F6;
+  padding: 0;
+}
+
+.blog .about-harper,
+.blog .recent-posts {
+  background-color: white;
+  padding: 30px;
+}
+
+.blog .about-harper {
+  margin-bottom: 20px;
+}
+
+.blog .about-harper a {
+  font-family: "Cabin";
+  color: #227284;
+}
+
+.blog span {
+  margin-right: 10px;
+}
+
 .blog .blog-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -809,6 +840,7 @@ img {
 h1,
 h2,
 h3,
+h4,
 p,
 button,
 form,
