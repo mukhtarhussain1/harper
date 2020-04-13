@@ -1,0 +1,34 @@
+// Blog Styling
+.blog-background {
+    @include background-image(url(../harper-assets/blog-image-1.jpg))
+}
+
+.blog {
+    padding: 10% 0;
+    background-color: $white;
+
+    .flex-blog {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        width: 65%;
+
+
+        .blog-post-container {
+            background-color: white;
+            padding: 30px;
+        }
+
+        .blog-form {
+            width: 100%;
+        }
+    }
+
+}
+
+// Flex sidebar divs and stack

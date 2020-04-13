@@ -690,6 +690,51 @@ form button:hover {
   color: #F6F6F6;
 }
 
+.blog-background {
+  background-image: url(../harper-assets/blog-image-1.jpg);
+  height: 40vh;
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.blog {
+  padding: 10% 0;
+  background-color: #F6F6F6;
+}
+
+.blog .flex-blog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .blog-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 65%;
+}
+
+.blog .blog-container .blog-post-container {
+  background-color: white;
+  padding: 30px;
+}
+
+.blog .blog-container .blog-form {
+  width: 100%;
+}
+
 .contact-background {
   background-image: url(../harper-assets/contact-image-1.jpg);
   height: 40vh;
@@ -719,7 +764,7 @@ form button:hover {
   height: 75%;
 }
 
-.sidebar h4 {
+.sidebar .email-address {
   text-transform: lowercase;
 }
 
@@ -740,7 +785,7 @@ form button:hover {
   font-size: 3rem;
 }
 
-.socials li i:hover {
+i:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

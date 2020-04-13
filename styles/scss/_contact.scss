@@ -20,7 +20,7 @@
     width: calc(35% - 20px);
     height: 75%;
 
-    h4 {
+    .email-address {
         text-transform: lowercase;
 
     }
@@ -38,9 +38,10 @@
             color: $dark-blue;
             @include font-size(30);
 
-            &:hover {
-                transform: scale(1.1);
-            }
         }
     }
+}
+
+i:hover {
+    transform: scale(1.1);
 }
