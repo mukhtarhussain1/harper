@@ -758,12 +758,51 @@ form button:hover {
 }
 
 .blog .blog-container .blog-post-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .blog-container .blog-post-container .travels,
+.blog .blog-container .blog-post-container .single-post {
   background-color: white;
   padding: 30px;
+  margin-bottom: 20px;
+}
+
+.blog .blog-container .blog-post-container .travels p {
+  margin: 15px 0;
+}
+
+.blog .blog-container .blog-post-container .travels,
+.blog .blog-container .blog-post-container .single-post:last-of-type {
+  border-bottom: 5px solid #227284;
 }
 
 .blog .blog-container .blog-form {
   width: 100%;
+}
+
+.blog .single-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog .single-post .single-pic {
+  width: calc(25% - 20px);
+  margin-right: 20px;
+}
+
+.blog .single-post .single-text {
+  width: 75%;
 }
 
 .contact-background {
