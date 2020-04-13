@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Home</title>
+    <title>Harper | Contact</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./harper-assets/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./harper-assets/favicon_io/favicon-32x32.png">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body>
+<body class="contact">
     <header>
         <nav>
             <li>
@@ -63,6 +63,45 @@
 
         </nav>
     </header>
+
+    <main>
+        <!-- Background Image + h1 -->
+        <div class="contact-background">
+
+        </div>
+
+        <!-- Main Contact -->
+        <div class="wrapper">
+            <div class="contact-container">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    
+                </div>
+
+                <!-- Form -->
+                <form action="">
+
+                <fieldset class="personal-info">
+                    <input tabindex="0" type="text" required placeholder="Name" id="name">
+                    <label class="visually-hidden"
+                    for="name"></label>
+
+                    <input tabindex="0" type="email" id="email" required placeholder="Email address">
+                    <label class="visually-hidden"
+                    for="email"></label>
+                </fieldset>
+
+                <textarea tabindex="0" name="comments" required id="message" cols="60" rows="15" placeholder="Comment"></textarea>
+                <label class="visually-hidden"
+                for="message"></label>
+
+                <button type="submit">Post Comment</button>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
     
 </body>
 </html>

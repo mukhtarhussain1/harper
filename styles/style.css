@@ -610,6 +610,89 @@ header {
   margin: 0 20px;
 }
 
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form input,
+form textarea {
+  background-color: white;
+  border-radius: 1px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #F38D8D;
+}
+
+form ::-webkit-input-placeholder {
+  color: black;
+  font-size: 1.5rem;
+}
+
+form :-ms-input-placeholder {
+  color: black;
+  font-size: 1.5rem;
+}
+
+form ::-ms-input-placeholder {
+  color: black;
+  font-size: 1.5rem;
+}
+
+form ::placeholder {
+  color: black;
+  font-size: 1.5rem;
+}
+
+form .personal-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+form .personal-info input {
+  height: 70px;
+  width: calc(50% - 10px);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+form .personal-info input:first-of-type {
+  margin-right: 10px;
+}
+
+form textarea {
+  resize: none;
+}
+
+form button {
+  min-width: 100%;
+}
+
+form button:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  background-color: #171717;
+  color: #F6F6F6;
+}
+
+.contact {
+  background-color: #F6F6F6;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -635,6 +718,7 @@ form,
 a,
 input,
 textarea,
+fieldset,
 label,
 ul,
 li {

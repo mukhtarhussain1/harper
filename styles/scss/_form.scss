@@ -1,0 +1,63 @@
+// Form Styling
+form {
+    display: flex;
+    flex-direction: column;
+
+
+    input,
+    textarea {
+        background-color: white;
+        border-radius: 1px;
+        padding: 15px;
+        margin: 10px 0;
+
+        &:focus {
+            border: 1px solid $accent-color;
+        }
+    }
+
+    ::placeholder {
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    
+    .personal-info {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            height: 70px;
+            width: calc(50% - 10px);
+            flex: 1 1 50%;
+        
+        }
+        
+        input:first-of-type{
+            margin-right: 10px;
+        }
+    }
+    
+    textarea {
+        resize: none;
+    }
+
+    button {
+        min-width: 100%;
+
+        &:hover {
+            transform: scale(1);
+            background-color: $text-color;
+            color: $white;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
