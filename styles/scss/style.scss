@@ -70,6 +70,7 @@ a {
     letter-spacing: 1px;
 }
 
+// Headings & Text
 h1,
 .sticky {
     line-height: 92px;    
@@ -105,6 +106,8 @@ button a {
 
 
 
+
+
 // Button Styling
 button {
     background-color: $accent-color;
@@ -135,6 +138,89 @@ footer {
 
 // Media Queries
 @include desktop {
+    // Harper Main Page
+    .header-text-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0;
+
+        .header-pic {
+            width: 60%;
+            margin-right: 0;
+
+            img {
+                top: initial;
+                box-shadow: 0px 0px 0px 20px white;
+            }
+        }
+
+        .everyday {
+            display: block;
+            position: relative;
+            right: 45%;
+            transform: rotate(270deg);
+        }
+
+        .logo {
+            margin: 10% 0;
+            padding-left: 20%;
+
+
+            img {
+                display: none;
+            }
+        }
+    }
+
+    // Who's Harper
+    .whos-harper {
+        .harper-container {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    // Four Text
+    .four-text {
+        .mid-list {
+            flex-direction: column;
+        }
+    }
+
+    // Pic & Text
+    .pic-text {
+        .pic-text-container {
+            flex-direction: column;
+
+            .text-container {
+                padding: 9% 0;
+            }
+
+            .text-container:nth-of-type(2) {
+                border-bottom: 2px solid $text-color;
+            }
+        }
+    }
+
+
+    // Harper's Journey
+    .journey {
+
+        .journey-container {
+            flex-direction: column;
+            align-items: center;
+
+            .journey-text {
+                width: 100%;
+                text-align: center;
+                margin-top: 10%;
+            }
+        }
+
+
+    }
+
     // Form
     form {
         width: 100%;
@@ -150,6 +236,7 @@ footer {
          }
     }
 
+    // Contact
     .contact {
 
         .contact-container {
@@ -158,22 +245,39 @@ footer {
 
         }
 
-        aside {
-            width: 100%;
-            margin-top: 20px;
+        .address,
+        .socials {
+            text-align: center;
+        }
+        
+        .socials {
+            margin-bottom: 20px;
+        }
+    }
+    
+    aside {
+        width: 100%;
+        margin-top: 20px;
+    }
 
-            .address,
-            .socials {
-                text-align: center;
+    // Blog 
+    .blog {
+
+        .flex-blog {
+            justify-content: space-between;
+            flex-direction: column-reverse;
+            
+            .blog-sidebar,
+            .blog-container {
+
+                width: 100%;
             }
 
-            .socials {
-                margin-bottom: 20px;
+            .blog-sidebar {
+                text-align: center;
             }
         }
     }
-
-
 
 
 }
