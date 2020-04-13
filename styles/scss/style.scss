@@ -69,9 +69,19 @@ a {
     letter-spacing: 1px;
 }
 
+h1,
+.sticky {
+    line-height: 92px;    
+}
+
 h1 {
     @include font-settings(100);
-    line-height: 92px;
+}
+
+.sticky {
+    @include font-settings(80);
+    position: absolute;
+    top: 43%;
 }
 
 h2 {

@@ -2,7 +2,12 @@
 form {
     display: flex;
     flex-direction: column;
+    width: 65%;
 
+    ::placeholder {
+        color: black;
+        font-size: 1.5rem;
+    }
 
     input,
     textarea {
@@ -16,12 +21,6 @@ form {
         }
     }
 
-    ::placeholder {
-        color: black;
-        font-size: 1.5rem;
-    }
-    
-    
     .personal-info {
         display: flex;
         justify-content: space-between;

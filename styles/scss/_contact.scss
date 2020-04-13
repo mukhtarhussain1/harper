@@ -1,4 +1,46 @@
 // Contact Page
+.contact-background {
+    @include background-image(url(../harper-assets/contact-image-1.jpg))
+
+}
+
 .contact {
     background-color: $white;
+    padding: 10% 0;
+    
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.sidebar {
+    background-color: white;
+    padding: 30px;
+    width: calc(35% - 20px);
+    height: 75%;
+
+    h4 {
+        text-transform: lowercase;
+
+    }
+    
+}
+
+.socials {
+    display: flex;
+
+    li {
+
+        flex: 1 0 calc(25% - 10px);
+
+        i {
+            color: $dark-blue;
+            @include font-size(30);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
-<body class="contact">
+<body>
     <header>
         <nav>
             <li>
@@ -62,46 +62,83 @@
             </div>
 
         </nav>
-    </header>
-
-    <main>
         <!-- Background Image + h1 -->
         <div class="contact-background">
-
+            <div class="wrapper">
+            <h1 class="sticky">Contact Me</h1>
+            </div>
         </div>
+    </header>
 
-        <!-- Main Contact -->
+    <main class="contact">
+
         <div class="wrapper">
             <div class="contact-container">
                 <!-- Sidebar -->
                 <div class="sidebar">
+                    <ul class="socials">
+                        <li>
+                            <a href="https://www.facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/afuadeborah_">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/meet-afua-frimpong/">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="address">
+                        <h4>info@email.com</h4>
+                        <p>123-456-7890</p>
+                        <p>123 Queen St West, Unit 10</p>
+                        <p>Toronto, Ontario</p>
+                        <p>M5V 2D5</p>
+                    </div>
+
                     
                 </div>
 
                 <!-- Form -->
                 <form action="">
 
-                <fieldset class="personal-info">
-                    <input tabindex="0" type="text" required placeholder="Name" id="name">
+                    <fieldset class="personal-info">
+                        <label class="visually-hidden"
+                        for="name"></label>
+                        <input tabindex="0" type="text" required placeholder="Name" id="name">
+
+                        <label class="visually-hidden"
+                        for="email"></label>
+                        <input tabindex="0" type="email" id="email" required placeholder="Email address">
+                    </fieldset>
+                    
                     <label class="visually-hidden"
-                    for="name"></label>
+                    for="message"></label>
+                    <textarea tabindex="0" name="comments" required id="message" cols="60" rows="15" placeholder="Comment"></textarea>
 
-                    <input tabindex="0" type="email" id="email" required placeholder="Email address">
-                    <label class="visually-hidden"
-                    for="email"></label>
-                </fieldset>
-
-                <textarea tabindex="0" name="comments" required id="message" cols="60" rows="15" placeholder="Comment"></textarea>
-                <label class="visually-hidden"
-                for="message"></label>
-
-                <button type="submit">Post Comment</button>
+                    <button type="submit">Post Comment</button>
 
                 </form>
             </div>
         </div>
 
     </main>
+    <footer class="contact-footer">
+        <p>Copyright© Afua Deborah 2020 Juno College</p>
+    </footer>
+
     
 </body>
+
 </html>

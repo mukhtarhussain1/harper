@@ -32,6 +32,14 @@ $white: #F6F6F6;
     font-size: ($size / 10) * 1rem;
 }
 
+@mixin background-image ($image){
+    background-image: $image;
+    height: 40vh;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
 
 // Media Queries
 @mixin desktop {
