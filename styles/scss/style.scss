@@ -131,3 +131,49 @@ footer {
     height: 5vh;
 
 }
+
+
+// Media Queries
+@include desktop {
+    // Form
+    form {
+        width: 100%;
+
+        .personal-info {
+            flex-direction: column;
+     
+            input {
+
+                width: 100%;
+                
+            }
+         }
+    }
+
+    .contact {
+
+        .contact-container {
+            justify-content: space-between;
+            flex-direction: column-reverse;
+
+        }
+
+        aside {
+            width: 100%;
+            margin-top: 20px;
+
+            .address,
+            .socials {
+                text-align: center;
+            }
+
+            .socials {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+
+
+}

@@ -43,7 +43,7 @@ $white: #F6F6F6;
 
 // Media Queries
 @mixin desktop {
-    @media (max-width: 1050px){
+    @media (max-width: 990px){
         @content;
     }
 }

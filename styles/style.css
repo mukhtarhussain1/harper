@@ -993,3 +993,38 @@ footer {
   text-align: center;
   height: 5vh;
 }
+
+@media (max-width: 990px) {
+  form {
+    width: 100%;
+  }
+  form .personal-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  form .personal-info input {
+    width: 100%;
+  }
+  .contact .contact-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .contact aside {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .contact aside .address,
+  .contact aside .socials {
+    text-align: center;
+  }
+  .contact aside .socials {
+    margin-bottom: 20px;
+  }
+}
