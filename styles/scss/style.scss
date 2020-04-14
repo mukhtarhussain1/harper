@@ -203,7 +203,6 @@ footer {
         }
     }
 
-
     // Harper's Journey
     .journey {
 
@@ -280,4 +279,30 @@ footer {
     }
 
 
+}
+
+@include mobile-tablet {
+
+    .main-nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+        
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .ham-input:checked ~ .hamburger-menu {
+        display: block;
+    }
 }
